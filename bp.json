@@ -1,0 +1,76 @@
+{
+    "producer_account_name": "eosnodeonebp",
+    "org": {
+        "candidate_name": "NodeONE☝️",
+        "website": "https://www.nodeone.io",
+        "code_of_conduct": "https://steemit.com/eos/@eosnodeone/eos-nodeone-roadmap-and-stance-on-vote-buying",
+        "ownership_disclosure": "https://steemit.com/nodeone/@eosnodeone/eosnodeone-ownership-disclosure",
+        "email": "contact@eosnodeone.io",
+        "github_user": "hahnryu",
+        "branding": {
+            "logo_256": "https://www.nodeone.io/resources/images/eosnodeone_logo_256.png",
+            "logo_1024": "https://www.nodeone.io/resources/images/eosnodeone_logo_1024.png",
+            "logo_svg": "https://www.nodeone.io/resources/images/eosnodeone_logo.svg"
+        },
+        "location": {
+            "name": "Seoul",
+            "country": "KR",
+            "latitude": 37.5326,
+            "longitude": 127.024612
+        },
+        "social": {
+            "steemit": "eosnodeone",
+            "twitter": "eosnodeone",
+            "github": "nodeoneio",
+            "keybase": "hahn_eosnodeone",
+            "telegram": "nodeone_group"
+        }
+    },
+    "nodes": [
+        {
+            "location": {
+                "name": "Seoul",
+                "country": "KR",
+                "latitude": 37.5326,
+                "longitude": 127.024612
+            },
+            "node_type": [
+                "seed",
+                "producer"
+            ],
+            "p2p_endpoint": "peer-eos.nodeone.network:9871",
+            "api_endpoint": "",
+            "ssl_endpoint": ""
+        },
+        {
+            "location": {
+                "name": "Seoul",
+                "country": "KR",
+                "latitude": 37.5326,
+                "longitude": 127.024612
+            },
+            "node_type": "query",
+            "api_endpoint": "http://api-eos.nodeone.network:8888",
+            "ssl_endpoint": "https://api-eos.nodeone.network:8344",
+            "features": [
+                "chain-api",
+                "account-query"
+            ]
+        },
+        {
+            "location": {
+                "name": "Falkenstein",
+                "country": "DE",
+                "latitude": 50.47887,
+                "longitude": 12.33496
+            },
+            "node_type": "query",
+            "api_endpoint": "http://api1-eos.nodeone.network:8888",
+            "ssl_endpoint": "https://api1-eos.nodeone.network:8344",
+            "features": [
+                "chain-api",
+                "account-query"
+            ]
+        }
+    ]
+}
